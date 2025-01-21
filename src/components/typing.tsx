@@ -144,7 +144,6 @@ export default function TypingTest() {
                         />
 
                     </div>
-                    {/* {isActive && <p className="text-xl font-bold">Time left: {timeLeft} seconds</p>} */}
                 </CardContent>
                 <CardFooter className="flex justify-center">
                     <div className="relative">
