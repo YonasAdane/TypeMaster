@@ -2,6 +2,7 @@
 
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card"
 import { words } from "@/lib/wordsDB"
+import Link from "next/link"
 import { useCallback, useEffect, useRef, useState } from "react"
 
 function generateText(length: number): string {
@@ -219,7 +220,7 @@ export default function TypingTest() {
                         </div>
                     </div>
                     <div className="relative">
-                    <a href="/" className="cursor-pointer">
+                    <Link href="/" className="cursor-pointer">
 
                         <svg className="-rotate-90 h-48 w-48 ">
                         <circle
@@ -241,7 +242,7 @@ export default function TypingTest() {
                             Retry
                             </span>
                         </div>
-                        </a>
+                        </Link>
                     </div>
                 </CardFooter>
             </Card>
