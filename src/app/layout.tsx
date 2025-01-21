@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Typing Speed App",
+  title: "TypeMaster - Typing Speed test",
   description: "Check your typing Speed within 60seconds",
 };
 
